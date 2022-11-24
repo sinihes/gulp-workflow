@@ -8,12 +8,14 @@
 >npm --version => 5.6.0
 >npx --version => 9.7.1
 
-# Después instalar gulp globalmente.
-> npm install -g gulp-cli 
-> npm gulp --version 
-    result: CLI version: ?.?.?
-    Local version: Unknown
 
+# Comprobar si esta instalado gulp global.
+> npm gulp --version
+ Si no esta instalado: 
+> npm install -g gulp-cli 
+
+# Volver a comprobar si esta instalado gulp-cli
+> npm gulp --version 
 ----
 
 # Una vez realizado estos pasos ya podemos comenzar la instalación de los paquetes de devDependencias.
